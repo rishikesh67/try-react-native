@@ -30,8 +30,13 @@
   </div>
 
   <div class="row">
-    <div class="col-md-6" id='left'></div>
-    <div class="col-md-6" id='right'></div>
+    <div class="col-md-6" id='left1'></div>
+    <div class="col-md-6" id='right1'></div>
+  </div>   
+
+  <div class="row">
+    <div class="col-md-6" id='left2'></div>
+    <div class="col-md-6" id='right2'></div>
   </div>    
 </div>
 
@@ -41,13 +46,24 @@
 
     ReactDOM.render(
       <h1>My First React Web App</h1>, 
-      document.getElementById('left')
+      document.getElementById('left1')
     )
 
     ReactDOM.render(
       <h1>My First React Web App (Nice)</h1>, 
-      document.getElementById('right')
+      document.getElementById('right1')
     )
+
+    const fullname = "Rishikesh Agrawani"
+    ReactDOM.render(
+      <h1>My name is {fullname}</h1>,
+      document.getElementById('left2')
+    )
+
+    function MyDetails(props) {
+      return <h1>My age is {props.age} and I am from {props.state}</h1>
+    }
+    ReactDOM.render(<MyDetails age={26} state='Chhattisgarh'/>, document.getElementById('right2'))
 </script>
 </body>
 </html>

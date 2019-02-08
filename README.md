@@ -22,7 +22,9 @@ A react native based project for mobile apps
 
 + Install JDK 8 (https://docs.oracle.com/javase/8/docs/technotes/guides/install/mac_jdk.html#A1096855)
 
-`/Library/Java/JavaVirtualMachines`
+> `/Library/Java/JavaVirtualMachines`
+>
+> https://docs.oracle.com/javase/8/
 
 ```bash
 Rishikeshs-MacBook-Air:try-react-native hygull$ ls /Library/Java/JavaVirtualMachines/
