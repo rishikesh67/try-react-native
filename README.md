@@ -3,23 +3,24 @@
 A react native based project for mobile apps 
 
 
-| Technology | Version | Note
-| --- | --- | --- |
-| node | v11.5.0| |
-| npm  | 6.4.1 | | 
-| create-react-native-app | 2.0.2 | sudo npm install create-react-nativea-app |
+| Technology | Version |
+| --- | --- | 
+| node | v11.5.0 | 
+| npm  | 6.4.1 | 
 
-> sudo npm install --global expo-cli
++ `sudo npm install create-react-nativea-app` |
 
-> sudo npm install git -g
++ `sudo npm install --global expo-cli`
 
-> Make sure you have XCode (otherwise the following command will not work)
++ `sudo npm install git -g`
 
-> sudo create-react-native-app MyReactApp
++ Make sure you have XCode (https://itunes.apple.com/us/app/xcode/id497799835?mt=12, otherwise the following command will not work)
 
-> Install JDK 8 (https://docs.oracle.com/javase/8/docs/technotes/guides/install/mac_jdk.html#A1096855)
++ `sudo create-react-native-app MyReactApp`
 
++ Install JDK 8 (https://docs.oracle.com/javase/8/docs/technotes/guides/install/mac_jdk.html#A1096855)
 
+	
 ### TODO 
 
 + https://docs.expo.io/versions/latest/workflow/configuration
