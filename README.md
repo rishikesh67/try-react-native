@@ -1,5 +1,7 @@
 # try-react-native
 
+> 8 Feb 2019
+
 A react native based project for mobile apps 
 
 
@@ -20,6 +22,18 @@ A react native based project for mobile apps
 
 + Install JDK 8 (https://docs.oracle.com/javase/8/docs/technotes/guides/install/mac_jdk.html#A1096855)
 
+`/Library/Java/JavaVirtualMachines`
+
+```bash
+Rishikeshs-MacBook-Air:try-react-native hygull$ ls /Library/Java/JavaVirtualMachines/
+jdk1.8.0_202.jdk
+Rishikeshs-MacBook-Air:try-react-native hygull$ ls -al /Library/Java/JavaVirtualMachines/
+total 0
+drwxr-xr-x  3 root  wheel   96 Feb  8 12:50 .
+drwxr-xr-x  4 root  wheel  128 Feb  8 12:50 ..
+drwxr-xr-x  3 root  wheel   96 Feb  8 12:50 jdk1.8.0_202.jdk
+Rishikeshs-MacBook-Air:try-react-native hygull$ 
+```
 	
 ### TODO 
 
